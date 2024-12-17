@@ -1,6 +1,6 @@
 package array
 
-// Ref: https://leetcode.com/problems/find-pivot-index/
+// PivotIndex https://leetcode.com/problems/find-pivot-index/
 func PivotIndex(nums []int) int {
 	for i := 0; i < len(nums); i++ {
 		left := 0
